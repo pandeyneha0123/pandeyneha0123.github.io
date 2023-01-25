@@ -1,89 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neha Pandey - Aspiring Java Backend Developer</title>
+    <title>Neha Pandey</title>
+
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="git.css">
+
+    <script src="main.js"></script>
+
+    <script src="https://kit.fontawesome.com/f8d591f179.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
 </head>
-
-<body onload="turnOnDark()">
-    <div id="mobile_navbar">
-        <div>
-            <a id="dropDownMenuOpen">Menu</a>
-            <!-- <a href="#content">HOME</a>
-            <a href="#aboutMe">ABOUT</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#aboutMe">CONTACT</a>
-            <a onclick="goToResume()">RESUME</a> -->
-        </div>
-    </div>
-    <div id="dropDownMenu">
-        <img id="dropDownMenuClose" src="img/cross.png">
-        <div>
-            <a href="#content">HOME</a>
-            <a href="#aboutMe">ABOUT</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#projects">PROJECTS</a>
-            <a href="#aboutMe">CONTACT</a>
-             <a onclick="goToResume()">RESUME</a>
-        </div>
-        
-    </div>
-    <div id="darkmode"><img id="darkmodeimg" src="img/moon.png" alt=""></div>
-    <div id="topBar">
-        <div>
-            <img src="img/ham.png" alt="" id="sideBarOpen">
-        </div>
-        <h1>Welcome to My Profile</h1>
-        <ul class="topbarimg">
-            <li onclick="goToGit()"><img src="img/git.png" class="topbarimg" alt=""></li>
-            <li onclick="goToIn()"><img src="img/linkedin.png" class="topbarimg" alt=""></li>
-            <li onclick="goToMail()"><img src="img/mail1.png" class="topbarimg" alt=""></li>
-            <li onclick="goToWhatsapp()"><img src="img/whatsapp.png" class="topbarimg" alt=""></li>
-        </ul>
-    </div>
-    <div id="container">
-        <div id="sideBar">
-            <h2>Welcome</h2>
-            <img src="img/cross.png" alt="" id="sideBarCross">
-            <ul>
-                <li onclick="showHome()">HOME</li>
-                <li onclick="showAbout()">ABOUT</li>
-                <li onclick="showSkills()">SKILLS</li>
-                <li onclick="showProjects()">PROJECTS</li>
-                <li onclick="showContact()">CONTACT</li>
-                <li onclick="goToResume()">RESUME</li>
-            </ul>
-            <div><img onclick="goToGit()" src="img/git.png" alt="">
-                <img onclick="goToIn()" src="img/linkedin.png" alt="">
-                <img src="img/mail.png" onclick="goToMail()" alt="">
-                <!-- <img src="img/whatsapp.png" onclick="goToWhatsapp()" alt=""> -->
-            </div>
-
-        </div>
-        <div id="content">
-            <div id="one">
-                <div id="mainContent">
-                    <p>Hello, my name is</p>
-                    <h1>Neha Pandey</h1>
-                    <p>I'm a <span>Java Backend Developer</span></p>
-                    <button onclick="goToResume()" id="mainBut">Resume</button>
-                </div>
-                <div id="profilePic">
-                    <img src="img/resume.png.pdf" alt="">
-                    <!-- <hr> -->
-                </div>
-            </div>
-        </div>
-        
+<body>    
+    
+    <div id="top">
+        <div id="navbar">
        
-<script src="index.js"></script>
+            <div id="icon" onclick="location.href = 'index.html'">
+                <!-- <p>AK</p> -->
+                <i class="fa-brands fa-atlassian"></i>
+            </div>
+            
+            <div id="nav_opt">
+                <div onclick="myEd()"><p>Education</p></div>
+                <div onclick="location.href = '#sk'"><p>Skills</p></div>
+                <div onclick="location.href = '#pro'"><p>Projects</p></div>
+                <div onclick="location.href = '#con'"><p>Contact</p></div>
+                
+            </div>
+    
+        </div>
+    </div>
 
+    
+
+    <div id="about">
+
+        
+
+        <div id="intro">
+            <p>Hey,</p>
+            <p>I'm <span style="color: rgb(18, 128, 18);">Neha</span>,</p>
+            <p>a JAVA developer.</p>
+
+            <div class="brief">
+                <p>And a growth-oriented person, who is always ready to learn and experience new things.</p>
+            </div>
+
+            <p class="locate"> <i class="fa-solid fa-location-dot"></i> Basti,Uttar Pradesh, India</p>
+
+            <button id="resume"> <a href="https://drive.google.com/file/d/1_yw_dU3am4WPoBIHMdhLtTmAkClrHAwb/view?usp=share_link" target="_blank">RESUME</a> </button>
+            
+        </div>
+
+        <div id="photo">
+            <div>
+                <img src="Images/WhatsApp Image 2023-01-18 at 9.17.58 PM (1).jpeg" alt="">
+            </div>
+           
+        </div>
+    </div>
+
+
+    <div id="ed"></div>
+
+    <div id="education">
+
+        <div class="heading">
+            <p>Educational Background</p>
+        </div>
+
+        <div id="masai">
+                      
+            <div>
+                <p class="name3"><i class="fa-solid fa-pen"></i> Full Stack Web Development</p>
+                <p class="line3">Masai School (Online)</p>
+                <p class="line3">May 2022 - Present</p>
+            </div>
+           
+        </div>
+
+        <div id="graduation">
+                       
+            <div>
+                <p class="name3"><i class="fa-solid fa-pen"></i> M.Sc in Mathematics</p>
+                <p class="line3">Gorakhpur University, Gorakhpur</p>
+                <p class="line3">june 2015- september 2017</p>
+            </div>
+            
+        </div>
+        
+        <div id="inter">
+          
+            <div>
+                <p class="name3"><i class="fa-solid fa-pen"></i> Intermediate in Maths</p>
+                <p class="line3">A.D girls Rajkiya kanya inter College,Gorakhpur</p>
+                <p class="line3">July 2009 - March 2011</p>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+
+    <div id="sk"></div>
+
+    <div id="skills">
+        
+        <div class="heading">
+            <p>Skills I have</p>
+        </div>
+
+        <div id="types">
+            <div>
+                <p class="skillHead">Tech Skills</p>
+                
+                <!-- <div><i class="fa-brands fa-java"></i></div>
+                <div><i class="fa-brands fa-js"></i></div>
+                <div><i class="fa-brands fa-html5"></i></div>
+                <div><i class="fa-brands fa-css3-alt"></i></div>
+                <div><i class="fa-brands fa-github-square"></i></div> -->
+                
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968231.png" alt="">
+                    <p class="techs">Java</p>
+                </div>
+            
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968254.png" alt="">
+                    <p class="techs">MySQL</p>
+                </div>
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968238.png" alt="">
+                    <p class="techs">JavaScript</p>
+                </div>
+
+               
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/262/262200.png" alt="">
+                    <p class="techs">HTML</p>
+                </div>
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968194.png" alt="">
+                    <p class="techs">CSS</p>
+                </div>
+            </div>
+
+
+            <div>
+                <p class="skillHead">Power Skills</p>
+                
+          
+                    
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5260/5260009.png" alt="">
+                    <p class="techs">Adaptability</p>
+                </div>
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2972/2972531.png" alt="">
+                    <p class="techs">Time Management</p>
+                </div>
+
+                
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/7829/7829198.png" alt="">
+                    <p class="techs">TeamWork</p>
+                </div>
+
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/630/630757.png" alt="">
+                    <p class="techs">Communication</p>
+                </div>                
+
+            </div>
+            
+        </div>
+
+    </div>
+    
+    
+    <div id="pro"></div>
+
+    <div id="projects">
+        <div class="heading">
+            <p>Some of my works</p>
+        </div>
+
+        <div id="pro1">
+            
+            <div><img src="Images/Screenshot (1931).png" alt=""></div>
+
+            <div>
+
+                <p class="name" >Apple TV+ which we named as Planet TV</p>
+                <p class="line" >Nov, 2022</p>
+                <p class="line" >Collaborative Project</p>
+                <p class="line" >Worked on the Home Page page</p>
+                <p class="line" >Tech Stacks Used : </p>
+                <p class="line" >HTML, CSS, JavaScript</p>
+                <div>
+                    <button> <a href="https://github.com/aaka8566/AppleTv" target="_blank">GitHub</a> </button>
+                    <button> <a href="https://verdant-banoffee-db8b30.netlify.app/" target="_blank">Go Live</a> </button>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div id="pro2">
+
+            <div>
+
+                <p class="name2" >KFC Clone</p>
+                <p class="line2" >oct, 2022</p>
+                <p class="line2" >Individual Project</p>
+                <p class="line2" >Worked on the footer and the pages embedded in the footer</p>
+                <p class="line2" >Tech Stacks Used : </p>
+                <p class="line2" >HTML, CSS</p>
+                <div>
+                    <button class="btn"> <a href="https://github.com/pandeyneha0123/annoyed-ground-3207" target="_blank">GitHub</a> </button>
+                    <button class="btn"> <a href="https://voluble-gaufre-a3053b.netlify.app/" target="_blank">Go Live</a> </button>
+                </div>
+
+            </div>
+
+            <div><img src="Images/Screenshot (1932).png" alt=""></div>
+
+        </div>
+
+
+        <div id="pro3">
+            
+            <div><img src="Images/Screenshot (1934).png" alt=""></div>
+
+            <div>
+
+                <p class="name" >My Portfolio</p>
+                <p class="line" >July, 2022</p>
+                <p class="line" >Solo Project</p>
+                <p class="line" >Worked on the whole project solely</p>
+                <p class="line" >Tech Stacks Used : </p>
+                <p class="line" >HTML, CSS</p>
+                <div>
+                    <button> <a href="https://github.com/pandeyneha0123/pandeyneha0123.github.io" target="_blank">GitHub</a> </button>
+                    <button onclick="myPort()">Go Live</button>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div id="con"></div>
+
+    <div id="contacts">
+        <div class="heading">
+            <p>Connect with me</p>
+        </div>
+
+        <div id="incont">
+
+            <div >
+                <i class="fa-solid fa-phone"></i>
+                <p>+91 7905615895</p>
+            </div>
+
+            <div id="mail">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="mailto:nehushree0194@gmail.com"> <p>nehushree0194@gmail.com</p> </a>
+                
+            </div>
+
+            <div id="link" >
+                
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/neha-pandey-b7b687208/" target="_blank"> <p>Neha Pandey</p> </a>
+
+            </div>
+
+            <div id="git" >   
+                                
+                <i class="fa-brands fa-github-square"></i>                
+                <a href="https://github.com/pandeyneha0123" target="_blank"> <p>pandeyneha0123</p> </a>                
+
+            </div> 
+
+            
+            
+        </div>
+        
+    </div>
+
+    <div id="last"></div>
+    
+
+    
+
+</body>
 </html>
-
- 

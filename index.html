@@ -1,310 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neha Pandey</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <script src="main.js"></script>
-
-    <script src="https://kit.fontawesome.com/f8d591f179.js" crossorigin="anonymous"></script>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOME PAGE</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  <script src="https://kit.fontawesome.com/d68d319f71.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./Navigation menu/css.css">
 </head>
-<body>    
-    
-    <div id="top">
-        <div id="navbar">
+
+<body>
+  <header>
+    <div id="nav-menu" class="nav">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          <h4>&nbsp;Neha Pandey</h4>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <!-- onclick="window.open('./resume/Abhishek_Resume', '_blank');" -->
+      <div class="nav-links">
+        <ul id="navbar">
+          <li><a class="nav-link home" href="#home">HOME</a></li>
+          <li><a class="nav-link about" href="#about">ABOUT</a></li>
+          <li><a class="nav-link skills" href="#skills">SKILLS</a></li>
+          <li><a class="nav-link projects" href="#projects">PROJECTS</a></li>
+          <li><a class="nav-link contact" href="#contact">CONTACT</a></li>
+          <li class="nav-link resume" id="resume"> <button onclick="resume()" id="resume-button-1"><a id="resume-link-1" href="https://drive.google.com/file/d/1_yw_dU3am4WPoBIHMdhLtTmAkClrHAwb/view?usp=share_link"
+            target="_blank" download="Neha_Pandey_Resume.pdf">Resume</a></button></li>
+
+          
+          <!-- <i class="fa-solid fa-download"></i> -->
+
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <div id="left_static" style="color: rgb(70, 194, 239);">
+    <a href="https://github.com/pandeyneha0123"><i class="fa-brands fa-github"></i></a>
+    <!-- <a href="https://www.instagram.com//"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://twitter.com/abhishek1494k"><i class="fa-brands fa-twitter"></i></a> -->
+    <a href="https://www.linkedin.com/in/abhishek1994k/"><i class="fa-brands fa-linkedin"></i></a>
+    <!-- <a href="https://codepen.io/abhishek1494k"><i class="fa-brands fa-codepen"></i></a> -->
+    <h5> &nbsp;&nbsp;_______________________</h5>
+  </div>
+
+  <div id="right_static" style="color: rgb(70, 194, 239);">
+    <h5> <span> nehushree0194@gmail.com</span></h5>
+  </div>
+  <div>
+
+    <!-------------------- HOME ---------------------->
+    <section id="home">
+      <img src="./images/WhatsApp Image 2023-01-18 at 9.17.58 PM (1).jpeg" class="home-img" alt="#" />
+      <br>
+      <h3 id="user-detail-name">Neha</h3>
+      <button onclick="resume()" id="resume-button-2"><a id="resume-link-2" href="https://drive.google.com/file/d/1_yw_dU3am4WPoBIHMdhLtTmAkClrHAwb/view?usp=share_link"
+          target="_blank" download="Neha_Pandey.pdf">Resume</a></button>
+    </section>
+    <!-------------------- ABOUT ---------------------->
+    <section id="about" class="about section">
+      <title>About</title>
+      <h3 id="user-detail-intro">
+        I’m a <span style="color:rgb(70, 194, 239);">Java Developer</span> located in Basti,Uttar pradesh.A growth-oriented person, who is always ready to learn and experience new things,also
+        Well-organised person, problem solver with high
+        attention to details. Interested in the entire <span style="color:rgb(70, 194, 239);">frontend & backend
+          spectrum</span> and working on ambitious projects with
+        positive people. Well versed in Javascript, CSS, HTML,Java,MySQL,Postman.
+
+      </h3><br>
+    </section>
+
+    <!-------------------- SKILLS ---------------------->
+    <section id="skills">
+
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://abhishek1494k.github.io/image/html.png" alt="" />
+        <h5 class="skills-card-name">HTML</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://abhishek1494k.github.io/image/css-3.png" alt="" />
+        <h5 class="skills-card-name">CSS</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://abhishek1494k.github.io/image/js%20(1).png" alt="" />
+        <h5 class="skills-card-name">JAVASCRIPT</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://cdn-icons-png.flaticon.com/512/5968/5968231.png" alt="" />
+        <h5 class="skills-card-name">Java</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img"
+          src="https://cdn-icons-png.flaticon.com/512/5968/5968254.png"
+          alt="" />
+        <h5 class="skills-card-name">MySQL</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img"
+          src="https://gauravshirkegs.github.io/assets/postman_icon.jpg" alt="" />
+        <h5 class="skills-card-name">Postman</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://design.jboss.org/hibernate/logo/final/hibernate_logo_whitebkg_stacked_256px.png" alt="" />
+        <h5 class="skills-card-name">Hibernate</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src="https://camo.githubusercontent.com/4545b55c7771bbd175235c80b518dcbbf2f6ee0b984a51ad9363cba8cb70e67c/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f737072696e67696f2f737072696e67696f2d69636f6e2e737667"alt="" />
+        <h5 class="skills-card-name">Spring</h5>
+      </div>
+      <div class="skills-card">
+        <img class="skills-card-img" src=" https://gauravshirkegs.github.io/assets/Swaggwe-ui.jpg"alt="" />
+        <h5 class="skills-card-name">Swagger</h5>
+      </div>
+
+     
+    </section>
+    <br><br>
+    <!-------------------- PROJECTS ---------------------->
+    <section id="projects">
+      <!-- 1 -->
+      <div class="project-card">
+        <img src="https://user-images.githubusercontent.com/87129673/221365948-7b435f82-f945-4b0b-b362-4e9c987a678f.png" alt="">
+        <title class="project-title">Broker Application System</title>
+        <h3 class="project-title">HomeDecor</h3>
+        <p class="project-description">An e-commerce website, with admin panel and responsive landing page</p>
+        <p class="project-tech-stack">java,MySQL,Spring</p>
+        <p class="project-tech-stack">SpringBoot,Swagger,Postman</p>
+        <div style="display:flex; flex-direction: row; justify-content: space-between;"> <a class="project-github-link"
+            href="https://github.com/Ashish33000/Real-Estate-Broker_Application"><i class="fa-brands fa-github"></i></a>
+          <a class="project-deployed-link" href="http://localhost:8088/swagger-ui/index.html"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+      </div>
+      <!-- 2 -->
+      <div class="project-card">
+        <img src="https://camo.githubusercontent.com/9e6cf2c523113dbcbac61d7b7804be9168738c41cd4092dcf5952ffe6d39afa6/68747470733a2f2f692e6962622e636f2f79386d786867762f48726d2e6a7067">
+        <title class="project-title">Student Management System</title>
+        <h3 class="project-title">Student Management System</h3>
+        <p class="project-description">a software application used to store employee information and support various human resource functions, such as benefits, payrol</p>
+        <p class="project-tech-stack">Java,MySQL,JDBC,Hibernate</p>
+        <div style="display:flex; flex-direction: row; justify-content: space-between;"><a class="project-github-link"
+            href="https://github.com/pandeyneha0123/HR-Management-System"><i class="fa-brands fa-github"></i></a>
+          <a class="project-deployed-link" href="https://drive.google.com/file/d/1_wsVlDf62FiDlO2LDMjyMUeJ6YYELbkk/view?usp=share_link"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+      </div>
+      <!-- 3 -->
+      <!-- <div class="project-card">
+        <img src="./image/yellowcart.png" alt="">
+        <title class="project-title">YellowCart</title>
+        <h3 class="project-title">YellowCart</h3>
+        <p class="project-description">An e-commerce website with login page and 2 product section </p>
+        <p class="project-tech-stack">HTML, CSS, JAVASCRIPT</p>
+        <div style="display:flex; flex-direction: row; justify-content: space-between;"><a class="project-github-link"
+            href="https://github.com/abhishek1494k/feigned-waste-5696"><i class="fa-brands fa-github"></i></a>
+          <a class="project-deployed-link" href="https://yellowcart-com.netlify.app/"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+
+      </div> -->
+      <!-- 4 -->
+      <!-- <div class="project-card">
+        <img src="./image/QRBOT.png" alt="">
+        <title class="project-title">QR Bot</title>
+        <h3 class="project-title">QR Bot</h3>
+        <p class="project-description">QR Bot</p>
+        <p class="project-tech-stack">HTML, CSS, JAVASCRIPT</p>
+        <div style="display:flex; flex-direction: row; justify-content: space-between;"><a class="project-github-link"
+            href="https://github.com/abhishek1494k/QRBOT.com"><i class="fa-brands fa-github"></i></a>
+          <a class="project-deployed-link" href="https://www-qrbot-com.netlify.app/"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div> -->
+      </div>
+    </section>
+    <br>
+    <!-------------------- GitHUB ---------------------->
+    <section class="react-activity-calendar">
+      <h2>GitHub Activity-Calendar</h2>
+      <div class="calendar">
+        <!-- Loading the data just for you. -->
+      </div>
+      <br><br>
+      <div id="git-stat">
+        <div>
+          <img id="github-streak-stats"
+            src="https://camo.githubusercontent.com/fa0e5a0f33a94ae3becc4478c1d8bdf90c16590e238d4dabfaa6a04252e6ac41/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d70616e6465796e6568613031323326"
+            alt="streakstat" />
+          <br>
+          <img id="github-stats-card"
+            src="https://camo.githubusercontent.com/bcfeaddea1a000a68f7bf7c6b9259cc57755e61d5d8e0ea0841f4298cf100af6/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d70616e6465796e656861303132332673686f775f69636f6e733d74727565266c6f63616c653d656e"
+            alt="stat-card" />
+        </div>
+        <br>
+        <div>
+          <img id="github-top-langs"
+            src="https://camo.githubusercontent.com/50eda31690823b8c6a09b6d723b78aeac9e2ca645589ada25079e8c673cd8bfe/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d70616e6465796e656861303132332673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
+            alt="top_languages" />
+        </div>
+      </div>
+    </section>
+
+    <!-------------------- CONTACTS ---------------------->
+    <section id="contact">
+      <div>
+        <h2>Contact</h2>
+        <br>
+        <a id="contact-github" href="https://github.com/pandeyneha0123"><i class="fa-brands fa-github"></i></a>
+        <a id="contact-linkedin" href="https://www.linkedin.com/in/neha-pandey-b7b687208/"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a id="contact-phone" href="#"><i class="fa-solid fa-mobile-screen-button"></i> MOBILE</a>
+        <a id="contact-email" href="mailto:nehushree0194@gmail.com"><i class="fa-solid fa-envelope"></i> EMAIL</a>
        
-            <div id="icon" onclick="location.href = 'index.html'">
-                <!-- <p>AK</p> -->
-                <i class="fa-brands fa-atlassian"></i>
-            </div>
-            
-            <div id="nav_opt">
-                <div onclick="myEd()"><p>Education</p></div>
-                <div onclick="location.href = '#sk'"><p>Skills</p></div>
-                <div onclick="location.href = '#pro'"><p>Projects</p></div>
-                <div onclick="location.href = '#con'"><p>Contact</p></div>
-                
-            </div>
-    
-        </div>
-    </div>
-
-    
-
-    <div id="about">
-
-        
-
-        <div id="intro">
-            <p>Hey,</p>
-            <p>I'm <span style="color: rgb(18, 128, 18);">Neha</span>,</p>
-            <p>a JAVA developer.</p>
-
-            <div class="brief">
-                <p>And a growth-oriented person, who is always ready to learn and experience new things.</p>
-            </div>
-
-            <p class="locate"> <i class="fa-solid fa-location-dot"></i> Basti,Uttar Pradesh, India</p>
-
-            <button id="resume"><a href="https://drive.google.com/file/d/1_yw_dU3am4WPoBIHMdhLtTmAkClrHAwb/view?usp=share_link" target="_blank">RESUME</a> </button>
-           
-        </div>
-
-        <div id="photo">
-            <div>
-                <img src="Images/WhatsApp Image 2023-01-18 at 9.17.58 PM (1).jpeg" alt="">
-            </div>
-           
-        </div>
-    </div>
-
-
-    <div id="ed"></div>
-
-    <div id="education">
-
-        <div class="heading">
-            <p>Educational Background</p>
-        </div>
-
-        <div id="masai">
-                      
-            <div>
-                <p class="name3"><i class="fa-solid fa-pen"></i> Full Stack Web Development</p>
-                <p class="line3">Masai School (Online)</p>
-                <p class="line3">May 2022 - Present</p>
-            </div>
-           
-        </div>
-
-        <div id="graduation">
-                       
-            <div>
-                <p class="name3"><i class="fa-solid fa-pen"></i> M.Sc in Mathematics</p>
-                <p class="line3">Gorakhpur University, Gorakhpur</p>
-                <p class="line3">june 2015- september 2017</p>
-            </div>
-            
-        </div>
-        
-        <div id="inter">
-          
-            <div>
-                <p class="name3"><i class="fa-solid fa-pen"></i> Intermediate in Maths</p>
-                <p class="line3">A.D girls Rajkiya kanya inter College,Gorakhpur</p>
-                <p class="line3">July 2009 - March 2011</p>
-            </div>
-            
-        </div>
-
-
-    </div>
-
-
-    <div id="sk"></div>
-
-    <div id="skills">
-        
-        <div class="heading">
-            <p>Skills I have</p>
-        </div>
-
-        <div id="types">
-            <div>
-                <p class="skillHead">Tech Skills</p>
-                
-               
-                
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968231.png" alt="">
-                    <p class="techs">Java</p>
-                </div>
-            
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968254.png" alt="">
-                    <p class="techs">MySQL</p>
-                </div>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968238.png" alt="">
-                    <p class="techs">JavaScript</p>
-                </div>
-
-               
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/262/262200.png" alt="">
-                    <p class="techs">HTML</p>
-                </div>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968194.png" alt="">
-                    <p class="techs">CSS</p>
-                </div>
-            </div>
-
-
-            <div>
-                <p class="skillHead">Power Skills</p>
-                
-          
-                    
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/5260/5260009.png" alt="">
-                    <p class="techs">Adaptability</p>
-                </div>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/2972/2972531.png" alt="">
-                    <p class="techs">Time Management</p>
-                </div>
-
-                
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/7829/7829198.png" alt="">
-                    <p class="techs">TeamWork</p>
-                </div>
-
-                <div>
-                    <img src="https://cdn-icons-png.flaticon.com/512/630/630757.png" alt="">
-                    <p class="techs">Communication</p>
-                </div>                
-
-            </div>
-            
-        </div>
-
-    </div>
-    
-    
-    <div id="pro"></div>
-
-    <div id="projects">
-        <div class="heading">
-            <p>Some of my works</p>
-        </div>
-
-        <div id="pro1">
-            
-            <div><img src="Images/Screenshot (1931).png" alt=""></div>
-
-            <div>
-
-                <p class="name" >Apple TV+ (Planet TV)</p>
-                <p class="line" >Nov, 2022</p>
-                <p class="line" >Collaborative Project</p>
-                <p class="line" >Worked on the Home Page page</p>
-                <p class="line" >Tech Stacks Used : </p>
-                <p class="line" >HTML, CSS, JavaScript</p>
-                <div>
-                    <button> <a href="https://github.com/aaka8566/AppleTv" target="_blank">GitHub</a> </button>
-                    <button> <a href="https://verdant-banoffee-db8b30.netlify.app/" target="_blank">Go Live</a> </button>
-                </div>
-
-            </div>
-            
-        </div>
-
-        <div id="pro2">
-
-            <div>
-
-                <p class="name2" >KFC Clone</p>
-                <p class="line2" >oct, 2022</p>
-                <p class="line2" >Individual Project</p>
-                <p class="line2" >Worked on the footer and the pages embedded in the footer</p>
-                <p class="line2" >Tech Stacks Used : </p>
-                <p class="line2" >HTML, CSS</p>
-                <div>
-                    <button class="btn"> <a href="https://github.com/pandeyneha0123/annoyed-ground-3207" target="_blank">GitHub</a> </button>
-                    <button class="btn"> <a href="https://voluble-gaufre-a3053b.netlify.app/" target="_blank">Go Live</a> </button>
-                </div>
-
-            </div>
-
-            <div><img src="Images/Screenshot (1932).png" alt=""></div>
-
-        </div>
-
-
-        <div id="pro3">
-            
-            <div><img src="Images/Screenshot (1934).png" alt=""></div>
-
-            <div>
-
-                <p class="name" >My Portfolio</p>
-                <p class="line" >July, 2022</p>
-                <p class="line" >Solo Project</p>
-                <p class="line" >Worked on the whole project solely</p>
-                <p class="line" >Tech Stacks Used : </p>
-                <p class="line" >HTML, CSS</p>
-                <div>
-                    <button> <a href="https://github.com/pandeyneha0123/pandeyneha0123.github.io" target="_blank">GitHub</a> </button>
-                    <button onclick="myPort()">Go Live</button>
-                </div>
-
-            </div>
-            
-        </div>
-    </div>
-
-
-    <div id="con"></div>
-
-    <div id="contacts">
-        <div class="heading">
-            <p>Connect with me</p>
-        </div>
-
-        <div id="incont">
-
-            <div >
-                <i class="fa-solid fa-phone"></i>
-                <p>+91 7905615895</p>
-            </div>
-
-            <div id="mail">
-                <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:nehushree0194@gmail.com"> <p>nehushree0194@gmail.com</p> </a>
-                
-            </div>
-
-            <div id="link" >
-                
-                <i class="fa-brands fa-linkedin"></i>
-                <a href="https://www.linkedin.com/in/neha-pandey-b7b687208/" target="_blank"> <p>Neha Pandey</p> </a>
-
-            </div>
-
-            <div id="git" >   
-                                
-                <i class="fa-brands fa-github-square"></i>                
-                <a href="https://github.com/pandeyneha0123" target="_blank"> <p>pandeyneha0123</p> </a>                
-
-            </div> 
-
-            
-            
-        </div>
-        
-    </div>
-
-    <div id="last"></div>
-    
-
-    
-
+      </div>
+    </section>
+    <br>
+  </div>
+  </script>
 </body>
+
 </html>
+
+<script>
+  function resume() {
+    
+      window.open("https://drive.google.com/file/d/1_yw_dU3am4WPoBIHMdhLtTmAkClrHAwb/view?usp=share_link", "_blank");
+  }
+  
+
+  document.getElementById('contact-email').addEventListener('click', () => {
+    alert('📩 nehushree0194@gmail.com')
+  })
+  document.getElementById('contact-phone').addEventListener('click', () => {
+    alert('☎ +91 7905615895')
+  })
+
+</script>
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<script src="./git_calender/git_calender.js"></script>

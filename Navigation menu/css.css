@@ -1,4 +1,8 @@
-.nav {
+
+
+
+
+  .nav {
     height: 50px;
     width: 100%;
     background-color:rgb(115, 64, 72);
@@ -142,4 +146,4 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-  }
+  } 

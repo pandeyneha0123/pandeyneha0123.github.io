@@ -1,151 +1,1729 @@
-* {
-    background-color: rgb(114, 68, 75);
-    color: white;
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: "Courier New", Courier, monospace;
+#about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#about h2 {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+#about-div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#about-div > div > div {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#user-detail {
+  /* background-color: aqua; */
+  padding: 15px;
+  border: 1px solid rgb(82, 82, 82);
+  font-size: medium;
+  line-height: 20px;
+}
+
+#about-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+#about-div i {
+  font-size: 40px;
+  margin: 10px 20px;
+}
+
+#about p{
+  font-weight: 700;
+}
+#about img{
+  width:45%;
+}
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+  #about {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  #about h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 5px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #about h4{
+    font-size: small;
+  }
+
+  #about-div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(82, 82, 82);
+    align-items: center;
+    text-align: center;
   }
   
-  /* #nav-menu {
-    top: 0;
-    z-index: 6;
-    width: 100%;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
-  #nav-menu div {
-    text-align: center;
-    align-items: center;
-    align-content: center;
-  }
-  #nav-menu div ul {
+  #about-div > div > div {
+    margin: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-  }
-  #nav-menu div ul li {
-    padding: 10px;
-  }
-  #nav-menu div ul li a {
-    font-size: small;
-    font-weight: 600;
-    font-family: "Courier New", Courier, monospace;
-    color: rgb(255, 255, 255);
-  }
-  #nav-menu div ul li a span {
-    color: rgb(70, 194, 239);
-  } */
-  
-  .nav-title{
-    font-family: 'Courier New', Courier, monospace;
+    justify-content: space-between;
   }
   
-  #resume-button-2,
-  .project-github-link,
-  .project-deployed-link {
-    color: rgb(70, 194, 239);
-    border: 1px solid rgb(70, 194, 239);
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  #resume-button-1 {
-    color: rgb(70, 194, 239);
-    border: 1px solid rgb(70, 194, 239);
+  #user-detail {
+    /* background-color: aqua; */
     padding: 5px;
-    border-radius: 5px;
+    font-size: medium;
   }
   
-  #resume-button-1 i{
-    /* color: black; */
+  #about-icon {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  #about-div i {
+    font-size: 10px;
+    margin: 5px 10px;
+  }
+  
+  #about p{
+    font-weight: 600;
+    font-size: xx-small;
+  }
+
+  #about img{
+    width:45%;
+  }
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+  #about {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  #about h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 5px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  #about-div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(82, 82, 82);
+    align-items: center;
+    text-align: center;
+  }
+  
+  #about-div > div > div {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #user-detail {
+    /* background-color: aqua; */
+    padding: 5px;
+    font-size: medium;
+  }
+  
+  #about-icon {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+  
+  #about-div i {
+    font-size: 20px;
+    margin: 5px 10px;
+  }
+  
+  #about p{
+    font-weight: 700;
+  }
+
+  #about img{
+    width:45%;
+  }
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+  
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+
+
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact-div {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 25px 0px 25px 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#contact-div div {
+  border: 2px solid rgb(77, 77, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact-div h2 {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+
+#contact-div h2 span {
+  color: rgb(70, 194, 239);
+  font-weight: 600;
+  font-size: medium;
+}
+#contact-div div a {
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  padding: 10px;
+  font-size: large;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+#contact-div div a:hover {
+  color: rgb(70, 194, 239);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*------------------------------------------- For smartphones ------------------------------------*/
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+  #contact {
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+
+  #contact-div {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 1px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid  rgb(77, 77, 77);
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+    padding: 10px 10px;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    transition: all 0.4s;
+  }
+}
+
+/*----------------------------------------- For small tablets --------------------------------*/
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+  #contact {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 150px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    transition: all 0.4s;
+  }
+}
+
+/*-------------------------- For larger tablets and smaller laptops---------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+  #contact {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: medium;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+}
+
+/*-------------------------------- For desktop screens -----------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+  #contact {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: medium;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+}
+
+/* -------------------------------For large screens -----------------------------------*/
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+  #contact {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: medium;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+}
+
+
+:root {
+  --black-color: #17181c;
+  --blue-color: #3e50b4;
+  --white-rbg-color: 255, 255, 255;
+  --green-rbg-color: 0, 212, 113;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cursor {
+  width: 5px;
+  height: 5px;
+  border: 3px solid rgba(var(--white-rbg-color), .8);
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+  animation: cursor-animate 550ms infinite alternate;
+}
+
+.cursor::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+/*    border: 10px solid rgba(var(--white-rbg-color), .2); */
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  animation: cursor-animate-2 550ms infinite alternate;
+}
+
+.bg__canvas {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--blue-color);
+  box-sizing: border-box;
+}
+
+/*Modificador*/
+.cursor--expand {
+  animation: cursor-animate-3 550ms forwards;
+  border: 5px solid rgb(var(--blue-rbg-color));
+}
+
+.cursor--expand::after {
+  border: 5px solid rgba(var(--blue-rbg-color), .3);
+}
+
+/*Keyframes*/
+@keyframes cursor-animate {
+  from {
+     transform: scale(1);
+  }
+
+  to {
+     transform: scale(1.5)
+  }
+}
+
+@keyframes cursor-animate-2 {
+  from {
+     transform: scale(1);
+  }
+
+  to {
+     transform: scale(.3);
+  }
+}
+
+@keyframes cursor-animate-3 {
+  0% {
+     transform: scale(1);
+  }
+
+  50% {
+     transform: scale(3);
+  }
+
+  100% {
+     transform: scale(1);
+     opacity: 0;
+  }
+}
+
+
+
+.react-activity-calendar {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+.react-activity-calendar h2{
+  border: 1px solid rgb(82, 82, 82);;
+  padding: 5px;
+  width: 42%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#git-stat > div {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+#git-stat > div > img {
+  width: 55%;
+  background-color: black;
+}
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+  #git-stat > div > img {
+    width: 85%;
     background-color: black;
   }
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+
+
+:root {
+  --color-calendar-graph-day-bg: #dddbdb;
+  --color-calendar-graph-day-L1-bg:  rgb(122, 218, 252);
+  --color-calendar-graph-day-L2-bg: rgb(46, 170, 215);
+  --color-calendar-graph-day-L3-bg: rgb(12, 131, 174);
+  --color-calendar-graph-day-L4-bg: rgb(1, 46, 63);
+}
+
+rect.ContributionCalendar-day[data-level='0'] {
+    fill: var(--color-calendar-graph-day-bg);
+}
+
+rect.ContributionCalendar-day[data-level='1'] {
+    fill: var(--color-calendar-graph-day-L1-bg);
+}
+
+rect.ContributionCalendar-day[data-level='2'] {
+    fill: var(--color-calendar-graph-day-L2-bg);
+}
+
+rect.ContributionCalendar-day[data-level='3'] {
+    fill: var(--color-calendar-graph-day-L3-bg);
+}
+
+rect.ContributionCalendar-day[data-level='4'] {
+    fill: var(--color-calendar-graph-day-L4-bg);
+}
+
+.calendar .width-full > .float-left {
+    display: none;
+}
+
+.calendar {
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    min-height: 243px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar-graph text.wday,
+.calendar-graph text.month {
+    font-size: 10px;
+    fill: #ffffff;
+}
+
+.contrib-legend {
+    text-align: right;
+    padding: 0 14px 10px 0;
+    display: inline-block;
+    float: right;
+}
+
+.contrib-legend .legend {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    bottom: -1px;
+    padding: 0;
+}
+
+.contrib-legend .legend li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.calendar-graph {
+    padding: 5px 0 0;
+    text-align: center;
+}
+
+.contrib-column {
+    padding: 15px 0;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+.contrib-column-first {
+    border-left: 0;
+}
+
+.table-column {
+    display: table-cell;
+    width: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.contrib-number {
+    font-weight: 600;
+    line-height: 1.3em;
+    font-size: 14px;
+    display: block;
+    color: #fafafa;
+}
+
+.calendar img.spinner {
+    width: 70px;
+    margin-top: 50px;
+    min-height: 70px;
+}
+
+.monospace {
+    text-align: center;
+    color: #000;
+    font-family: monospace;
+}
+
+.monospace a {
+    color: #1D75AB;
+    text-decoration: none;
+}
+
+.contrib-footer {
+    font-size: 11px;
+    padding: 0 10px 12px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 26px;
+}
+
+.left.text-muted {
+    float: left;
+    margin-left: 9px;
+    color: #767676;
+}
+.left.text-muted a {
+    color: #4078c0;
+    text-decoration: none;
+}
+.left.text-muted a:hover,
+.monospace a:hover {
+    text-decoration: underline;
+}
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
+}
+#user-activity-overview{
+    display:none;
+}
+
+.day-tooltip {
+    white-space: nowrap;
+    position: absolute;
+    z-index: 99999;
+    padding: 10px;
+    font-size: 12px;
+    color: #959da5;
+    text-align: center;
+    background: rgba(0,0,0,.85);
+    border-radius: 3px;
+    display: none;
+    pointer-events: none;
+}
+.day-tooltip strong {
+    color: #dfe2e5;
+}
+.day-tooltip.is-visible {
+    display: block;
+}
+.day-tooltip:after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    box-sizing: border-box;
+    margin: 0 0 0 -5px;
+    content: " ";
+    border: 5px solid transparent;
+    border-top-color: rgba(0,0,0,.85)
+}
+
+text.ContributionCalendar-label {
+    fill: #ccc;
+    font-size: 11px;
+}
+
+
+
+#home {
+  padding-top: 20px;
+}
+
+#home-div {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: white;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+}
+
+#home-div div {
+  /* border: 1px solid white; */
+}
+
+#home_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#home_1 h1 {
+  font-size: xxx-large;
+}
+
+#home-div img {
+  width: 80%;
+  border-radius: 10%;
+}
+
+#home_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#resume-button-2 {
+  width: min-content;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: rgb(70, 194, 239);
+  border: none;
+  color: #ffffff;
+  outline: none;
+  padding: 10px 20px 10px;
+  position: relative;
+}
+
+#resume-button-2::before,
+#resume-button-2::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+#resume-button-2::before {
+  border-top: 3px solid rgb(70, 194, 239);
+  right: 0;
+  top: -4px;
+}
+
+#resume-button-2::after {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  bottom: -4px;
+  left: 0;
+}
+
+#resume-button-2:hover::before,
+#resume-button-2:hover::after {
+  width: 100%;
+}
+
+
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+
+  #home {
+    /* padding-top: 10px; */
+    /* border: 1px solid white; */
+    margin-top: 120px;
+    margin-bottom: 100px;
+    padding-top: 70px;
+  }
   
+  #home-div {
+    width: 90%;
+    margin: auto;
+    color: white;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+   #home_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #home_1 h1 {
+    font-size: large;
+  }
+  
+  #home-div img {
+    width: 60%;
+    border-radius: 10%;
+  }
+  
+  #home_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #resume-button-2 {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
   #home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: white;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+   
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+  #home {
+    /* padding-top: 10px; */
+    /* border: 1px solid white; */
+    margin-top: 140px;
+    margin-bottom: 100px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
     justify-content: center;
   }
   
-  #home img {
-    width: 25%;
-    border-radius: 10%;
-    border: 2px solid rgb(70, 194, 239);
-  }
-  
-  #about {
-    height: 50vh;
-    width: 70%;
+  #home-div {
+    width: 90%;
     margin: auto;
     color: white;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+   #home_1 {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-weight: 400;
+    align-items: center;
+    margin-bottom: 10px;
   }
   
-  #left_static {
-    width: 2%;
+  #home_1 h1 {
+    font-size: large;
+  }
+  
+  #home-div img {
+    width: 40%;
+    border-radius: 10%;
+  }
+  
+  #home_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #resume-button-2 {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
     padding: 10px;
-    position: fixed;
-    height: 27rem;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+  #home {
+    /* padding-top: 10px; */
+    /* border: 1px solid white; */
+    margin-top: 110px;
+    margin-bottom: 100px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    z-index: 6;
-    transition: all 0.5s;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+  #home-div {
+    width: 90%;
+    margin: auto;
+    color: white;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+  }
+  #home_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
   }
   
-  #left_static i:hover {
-    background-color: white;
+  #home_1 h1 {
+    font-size: large;
+  }
+  
+  #home-div img {
+    width: 35%;
+    border-radius: 10%;
+  }
+  
+  #home_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #resume-button-2 {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+
+
+
+* {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#container{
+  margin: auto;
+}
+
+
+
+#left_static {
+  width: 2%;
+  padding-left: 30px;
+  position: fixed;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 6;
+  margin-top: 100px;
+}
+#left_static i {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  transition-duration: 0.5s;
+}
+#left_static i:hover {
+  color: rgb(135, 223, 255);
+  border-radius: 10px;
+  font-size: large;
+}
+#left_static h5 {
+  writing-mode: vertical-rl;
+  color: rgb(70, 194, 239);
+}
+
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+  #left_static{
+    display: none;
+  }
+ }
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+
+
+.header {
+  border-bottom: 1px solid #e2e8f0;
+  top: 0;
+  z-index: 6;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.nav-item {
+  margin: 0px 20px;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: larger;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  border-bottom: 3px solid white;
+}
+
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: rgb(70, 194, 239);
+}
+
+#resume-link-1 {
+  color: rgb(255, 255, 255);
+  background-color:  rgb(70, 194, 239);
+}
+
+#resume-button-1 {
+  width: min-content;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 550;
+  background-color: rgb(70, 194, 239);
+  border: none;
+  color: #ffffff;
+  outline: none;
+  padding: 10px 20px 10px;
+  position: relative;
+}
+
+#resume-button-1::before,
+#resume-button-1::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: "";
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+#resume-button-1::before {
+  border-top: 3px solid rgb(70, 194, 239);
+  right: 0;
+  top: -4px;
+}
+
+#resume-button-1::after {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  bottom: -4px;
+  left: 0;
+}
+
+#resume-button-1:hover::before,
+#resume-button-1:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    font-weight: 700;
+    position: fixed;
+    left: -100%;
+    top: 3rem;
+    flex-direction: column;
+    background-color: #000000;
+    width: 100%;
     border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1.7rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+   
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+ }
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+
+
+
+#projects {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#projects h2 {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+
+#projects h2:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#project-div {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.project-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid rgb(135, 135, 135);
+}
+
+.project-card-img img {
+  width: 90%;
+}
+
+.project-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-title,
+.project-description,
+.project-tech-stack,
+.project-card-links {
+  margin: 5px;
+}
+
+.project-github-link > i,
+.project-deployed-link > i {
+  font-size: x-large;
+  margin: 0px 5px;
+}
+
+.project-github-link > i:hover,
+.project-deployed-link > i:hover {
+  color:rgb(70, 194, 239);
+}
+
+.project-tech-stack > img {
+  width:4%;
+}
+
+.project-description{
+  font-weight: 600;
+}
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+  #projects {
+    padding-top: 80px;
+    padding-bottom: 100px;
   }
   
-  #left_static i {
-    color: rgb(70, 194, 239);
+  #projects h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 5px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
   }
   
-  #left_static h5 {
-    writing-mode: vertical-rl;
-    color: rgb(70, 194, 239);
+  #projects h2:hover {
+    border: 1px solid rgb(255, 255, 255);
   }
   
-  #right_static {
-    padding: 10px;
-    padding-top: 20px;
-    right: 0;
-    width: 2%;
-    position: fixed;
-    height: 27rem;
+  #project-div {
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(0, 0, 0);
-  }
-  #right_static h5,
-  #right_static span {
-    writing-mode: vertical-rl;
-    color: rgb(70, 194, 239);
-  }
-  
-  #right_static span {
-    letter-spacing: 2px;
-  }
-  
-  #container {
-    width: 86%;
     margin: auto;
   }
   
+  .project-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid rgb(135, 135, 135);
+  }
+  
+  .project-card-img img {
+    width: 90%;
+  }
+  
+  .project-card-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .project-title,
+  .project-description,
+  .project-tech-stack,
+  .project-card-links {
+    margin: 5px;
+  }
+  
+  .project-github-link > i,
+  .project-deployed-link > i {
+    font-size: large;
+    margin: 0px 5px;
+  }
+  
+  .project-github-link > i:hover,
+  .project-deployed-link > i:hover {
+    color:rgb(70, 194, 239);
+  }
+  
+  .project-tech-stack > img {
+    width:5%;
+  }
+  
+  .project-description{
+    display: none;
+  }
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+  
+ }
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+
+
+
+#right_static {
+  padding: 10px;
+  right: 0;
+  width: 2%;
+  position: fixed;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 100px;
+}
+
+#right_static h5,
+#right_static span {
+  writing-mode: vertical-rl;
+  color: rgb(255, 255, 255);
+}
+
+#right_static span {
+  letter-spacing: 2px;
+  font-size: 16px;
+  transition-duration: 0.5s;
+}
+
+#right_static span:hover {
+  color: rgb(70, 194, 239);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+/* CSS styles for smartphones */
+#right_static{
+  display: none;
+}
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+/* CSS styles for small tablets */
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+/* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+/* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+/* CSS styles for large screens */
+}
+
+
+
+
+#skills {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#skills h2 {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+
+#skills h2:hover{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#skills-div {
+  width: 60%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin: auto;
+}
+
+#skills-div div {
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: rgb(70, 194, 239);
+  justify-content: space-between;
+  transition-duration: all 1s;
+}
+
+#skills-div div:hover {
+  border: 2px solid white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#skills-div img {
+  width: 50%;
+}
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  
+}
+
+/* For smartphones */
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
   #skills {
-    width: 60%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  #skills h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #skills h2:hover{
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  #skills-div {
+    width: 70%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+  }
+  
+  #skills-div div {
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: rgb(70, 194, 239);
+    justify-content: space-between;
+    transition-duration: all 1s;
+  }
+  
+  #skills-div div:hover {
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  #skills-div img {
+    width: 30%;
+  }
+}
+
+/* For small tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+  #skills {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  #skills h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #skills h2:hover{
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  #skills-div {
+    width: 80%;
     display: grid;
     gap: 5px;
     grid-template-columns: repeat(3, 1fr);
@@ -153,8 +1731,367 @@
     margin: auto;
   }
   
-  #skills div {
+  #skills-div div {
     border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: rgb(70, 194, 239);
+    justify-content: space-between;
+    transition-duration: all 1s;
+  }
+  
+  #skills-div div:hover {
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  #skills-div img {
+    width: 40%;
+  }
+}
+
+/* For larger tablets and smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+}
+
+/* For desktop screens */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+}
+
+* {
+  background-color: rgb(114, 68, 75);
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* #nav-menu {
+  top: 0;
+  z-index: 6;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#nav-menu div {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+#nav-menu div ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#nav-menu div ul li {
+  padding: 10px;
+}
+#nav-menu div ul li a {
+  font-size: small;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+}
+#nav-menu div ul li a span {
+  color: rgb(70, 194, 239);
+} */
+
+.nav-title{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#resume-button-2,
+.project-github-link,
+.project-deployed-link {
+  color: rgb(70, 194, 239);
+  border: 1px solid rgb(70, 194, 239);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#resume-button-1 {
+  color: rgb(70, 194, 239);
+  border: 1px solid rgb(70, 194, 239);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#resume-button-1 i{
+  /* color: black; */
+  background-color: black;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  justify-content: center;
+}
+
+#home img {
+  width: 25%;
+  border-radius: 10%;
+  border: 2px solid rgb(70, 194, 239);
+}
+
+#about {
+  height: 50vh;
+  width: 70%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+#left_static {
+  width: 2%;
+  padding: 10px;
+  position: fixed;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 6;
+  transition: all 0.5s;
+}
+
+#left_static i:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+
+#left_static i {
+  color: rgb(70, 194, 239);
+}
+
+#left_static h5 {
+  writing-mode: vertical-rl;
+  color: rgb(70, 194, 239);
+}
+
+#right_static {
+  padding: 10px;
+  padding-top: 20px;
+  right: 0;
+  width: 2%;
+  position: fixed;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(0, 0, 0);
+}
+#right_static h5,
+#right_static span {
+  writing-mode: vertical-rl;
+  color: rgb(70, 194, 239);
+}
+
+#right_static span {
+  letter-spacing: 2px;
+}
+
+#container {
+  width: 86%;
+  margin: auto;
+}
+
+#skills {
+  width: 60%;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin: auto;
+}
+
+#skills div {
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: rgb(70, 194, 239);
+  justify-content: space-between;
+}
+#skills img {
+  width: 50%;
+}
+
+#projects {
+  width: 70%;
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 5px;
+  margin: auto;
+}
+
+#projects > div {
+  display: flex;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+}
+
+.project-title {
+  color: white;
+}
+
+#projects > div > img {
+  width: 100%;
+}
+/* #projects > div:last-child > img {
+  width: 70%;
+} */
+
+#contact div {
+  margin: auto;
+  height: auto;
+  width: 70%;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+#contact div a {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(70, 194, 239);
+}
+
+/* #resume {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  border: 2px solid grey;
+} */
+
+/* #resume a {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  color: rgb(70, 194, 239);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(70, 194, 239);
+} */
+
+.react-activity-calendar {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  /* border: 2px solid  rgb(70, 194, 239); */
+}
+
+#git-stat > div:first-child {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+}
+
+#git-stat > div > img {
+  width: 50%;
+  background-color: black;
+}
+/* ------------------------------------------------------- */
+
+@media screen and (min-width: 100px) and (max-width: 500px) {
+  /* Nav Bar only */
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+
+  #projects > div {
+    padding: 0px;
+    font-size: x-small;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+  }
+  #projects > div > img {
+    width: 100%;
+  }
+
+  .project-github-link,
+  .project-deployed-link {
+    color: rgb(70, 194, 239);
+    border: 1px solid rgb(70, 194, 239);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  #contact div {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #contact div a {
+    width: 30%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: x-small;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  #git-stat > div > img {
+    width: 70%;
+  }
+
+  #resume {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    /* border: 2px solid grey; */
+  }
+
+  #resume a {
+    font-size: x-small;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #skills {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+  }
+
+  #skills div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,214 +2100,48 @@
     justify-content: space-between;
   }
   #skills img {
-    width: 50%;
+    width: 40%;
   }
-  
-  #projects {
-    width: 70%;
-    margin-top: 20vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    gap: 5px;
-    margin: auto;
-  }
-  
-  #projects > div {
-    display: flex;
+
+  #left_static {
+    width: 1%;
     padding: 5px;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid grey;
   }
-  
-  .project-title {
-    color: white;
+
+  #about {
+    font-weight: 100;
+    font-size: x-small;
   }
-  
-  #projects > div > img {
-    width: 100%;
-  }
-  /* #projects > div:last-child > img {
-    width: 70%;
-  } */
-  
-  #contact div {
-    margin: auto;
-    height: auto;
-    width: 70%;
-    padding-bottom: 20px;
-    text-align: center;
-    border: 2px solid grey;
-  }
-  
-  #contact div a {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid rgb(70, 194, 239);
-  }
-  
-  /* #resume {
-    margin: auto;
-    width: 70%;
-    text-align: center;
-    border: 2px solid grey;
-  } */
-  
-  /* #resume a {
-    color: rgb(255, 255, 255);
-    font-size: large;
+
+  /* #resume-button-1, */
+  #resume-button-2 {
     color: rgb(70, 194, 239);
-    padding: 10px;
-    border-radius: 10px;
     border: 1px solid rgb(70, 194, 239);
-  } */
-  
-  .react-activity-calendar {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-    /* border: 2px solid  rgb(70, 194, 239); */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
   }
-  
-  #git-stat > div:first-child {
+
+  #home {
     display: flex;
     flex-direction: column;
-    margin: auto;
     align-items: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    justify-content: center;
   }
-  
-  #git-stat > div > img {
-    width: 50%;
-    background-color: black;
+}
+
+@media screen and (min-width: 500px) and (max-width: 710px) {
+  /* Nav Bar only */
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
   }
-  /* ------------------------------------------------------- */
-  
-  @media screen and (min-width: 100px) and (max-width: 500px) {
-    /* Nav Bar only */
-    #projects {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: auto;
-    }
-  
-    #projects > div {
-      padding: 0px;
-      font-size: x-small;
-      justify-content: space-between;
-      align-items: center;
-      flex-direction: column;
-      border: 1px solid grey;
-    }
-    #projects > div > img {
-      width: 100%;
-    }
-  
-    .project-github-link,
-    .project-deployed-link {
-      color: rgb(70, 194, 239);
-      border: 1px solid rgb(70, 194, 239);
-      padding: 5px;
-      border-radius: 5px;
-      margin-top: 5px;
-    }
-  
-    #contact div {
-      display: flex;
-      padding-top: 10px;
-      flex-direction: column;
-      justify-content: center;
-    }
-  
-    #contact div a {
-      width: 30%;
-      margin: auto;
-      color: rgb(255, 255, 255);
-      font-size: x-small;
-      padding: 5px;
-      border-radius: 5px;
-    }
-  
-    #git-stat > div > img {
-      width: 70%;
-    }
-  
-    #resume {
-      margin: auto;
-      width: 40%;
-      text-align: center;
-      /* border: 2px solid grey; */
-    }
-  
-    #resume a {
-      font-size: x-small;
-      padding: 10px;
-      border-radius: 5px;
-    }
-  
-    #skills {
-      width: 50%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: auto;
-      margin: auto;
-    }
-  
-    #skills div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      align-content: center;
-      color: rgb(70, 194, 239);
-      justify-content: space-between;
-    }
-    #skills img {
-      width: 40%;
-    }
-  
-    #left_static {
-      width: 1%;
-      padding: 5px;
-    }
-  
-    #about {
-      font-weight: 100;
-      font-size: x-small;
-    }
-  
-    /* #resume-button-1, */
-    #resume-button-2 {
-      color: rgb(70, 194, 239);
-      border: 1px solid rgb(70, 194, 239);
-      padding: 10px;
-      border-radius: 5px;
-      margin-top: 5px;
-    }
-  
-    #home {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 70px;
-      margin-bottom: 30px;
-      justify-content: center;
-    }
-  }
-  
-  @media screen and (min-width: 500px) and (max-width: 710px) {
-    /* Nav Bar only */
-    #projects {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: auto;
-    }
-  }
-  
-  @media screen and (min-width: 710px) and (max-width: 1000px) {
-    /* Nav Bar only */
-  }
-  
+}
+
+@media screen and (min-width: 710px) and (max-width: 1000px) {
+  /* Nav Bar only */
+}
+
